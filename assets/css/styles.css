@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.row{
+  padding-top: 30px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.nav-icons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.circle{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+}
+.circle i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-brand{
+  margin: 0 auto;
+}
+.logo{
+  width: 60%;
+}
+.form-inline{
+  position: relative;
+}
+.form-control{
+  height: 40px;
+  border-radius: 52px;
+  margin: 0;
+  font-size: 12px;
+  color: #BEBEBE;
+}
+.form-control:focus{
+  border-color: #FB5758;
+  box-shadow: none;
+}
+.search-icon{
+  position: absolute;
+  right: -5px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  background-color: #FB5758;
+  margin: 0;
+}
+#header{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../imgs/angelina-litvin-39775.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#header::after{
+  content: '';
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(26,22,45, .3);
+}
+.content{
+  position: absolute;
+  width: 60%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  color: #fff !important;
+  text-align: center;
+}
+.content h1{
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.content h1 span{
+  display: block;
+}
+.content p{
+  font-size: 12px;
+}
+
+/**Section 1**/
+#section1{
+  min-height: 60vh;
+  margin-top: 100px;
+}
+.section-bg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 80%;
+  height: 100%;
+}
+.section-1-1{
+  background-image: url('../imgs/flaunter-com-178022.jpg');
+}
+.section-1-2{
+  background-color: #EDEDED;
+  position: relative;
+}
+.section-1-3{
+  background-image: url('../imgs/abdi-lopez-348752.jpg');
+}
+.section-1-4{
+  background-image: url('../imgs/backpack.jpg');
+}
+.bg-content{
+  position: absolute;
+  color: #fff;
+}
+.bg-content p span{
+  display: block;
+}
+.bg-content-1{
+  top: 20%;
+  left: 10%;
+}
+.bg-content-1 p:first-child{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.bg-content-1 p:first-child span:first-child{
+  font-weight: 800;
+}
+.bg-content-2{
+  color: #000;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+}
+.bg-content-2 p:last-child{
+  font-size: 12px;
+}
+.bg-content-3{
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: 800;
+  text-align: center;
+}
+.bg-content-3 p:first-child{
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.bg-content-3 p:last-child{
+  font-size: 12px;
+}
+.bg-content-4{
+  top: 20%;
+  left: 10%;
+  text-transform: uppercase;
+}
+.bg-content-4 p:first-child{
+  font-size: 20px;
+}
+.bg-content-4 p:first-child span:last-child{
+  font-weight: 800;
+}
+.bg-content-4 p:last-child{
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/** Section 2 **/
+#section2{
+  min-height: 60vh;
+  margin-top: 60px;
+}
+.section-title{
+  text-align: center;
+}
+.section-title p:first-child{
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-title p:last-child{
+  font-size: 13px;
+  color: #787878;
+}
+.my-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.card-bg{
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-category{
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #b2b2b2;
+}
+.card-title{
+  font-size: 14px;
+  font-weight: 800;
+}
+.card-price{
+  font-size: 12px;
+  font-weight: 800;
+  color: #FB5758;
+}
+.card-bg-img1{
+  background-image: url('../imgs/matthew-kane-65194.jpg');
+}
+.card-bg-img2{
+  background-image: url('../imgs/christopher-campbell-145836.jpg');
+}
+.card-bg-img3{
+  background-image: url('../imgs/eli-defaria-100531.jpg');
+}
+.card-bg-img4{
+  background-image: url('../imgs/matt-alaniz-119776.jpg');
+}
+.hover{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 50%;
+  bottom: 55px;
+  transform: translate(-50%, 0);
+  width: 90%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 300ms;
+}
+.hover .circle{
+  transition: all 300ms;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.hover .circle i{
+  color: #FB5758;
+}
+.hover .circle:hover{
+  background-color: #FB5758;
+}
+.hover .circle:hover i{
+  color: #fff !important;
+}
+.hover button{
+  margin: 0 auto;
+  border: 0;
+  color: white;
+  background-color: #FB5758;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 12px;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+.hover button:hover{
+  background-color: #FB6768;
+}
+.my-card:hover .hover{
+  opacity: 1;
+  visibility: visible;
+  bottom: 100px;
+}
+
+/** Section 3 **/
+#section3{
+  margin-top: 40px;
+  min-height: 50vh;
+}
+.section-3-2{
+  padding: 40px 0;
+}
+.section-3-2 p:first-child{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+}
+.section-3-2 p:nth-child(2){
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-3-2 p:nth-child(2) span{
+  display: block;
+}
+.section-3-2 p:nth-child(3){
+  font-size: 20px;
+  font-weight: 800;
+  color: #FB5758;
+}
+.section-3-2 p:nth-child(4){
+  color: #787878;
+  font-size: 12px;
+}
+.section-3-2 .time{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-3-2 .time div{
+  display: column;
+}
+.section-3-2 .time div p{
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.section-3-2 .shop-now-btn{
+  padding: 10px 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #303030;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+/** Section 4 **/
+
+#section4{
+  min-height: 20vh;
+  margin-top: 60px;
+}
+#section4 .row div{
+  padding: 0 15px;
+}
+#section4 .circle{
+  background-color: #EFEFEF;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.section4-sec{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section4-sec div{
+  flex: 1;
+}
+.section4-sec div p:first-child{
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.section4-sec div p:last-child{
+  font-size: 10px;
+}
+
+/** Section 5 **/
+
+#section5{
+  margin-top: 60px;
+  min-height: 60vh;
+}
+.section-title{
+  text-align: center;
+}
+.section-title p:first-child{
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-title p:last-child{
+  font-size: 13px;
+  color: #787878;
+}
+.section-5-bg{
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  height: 360px;
+}
+.section-5-bg-content{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-5-bg-content p:first-child{
+  font-size: 35px;
+}
+.section-5-bg-img1{
+  background-image: url('../imgs/ms-683661_640.jpg');
+}
+.section-5-bg-img2{
+  background-image: url('../imgs/brooke-cagle-157923.jpg');
+}
+.card-bg-img5{
+  background-image: url('../imgs/hust-wilson-401558.jpg');
+}
+.card-bg-img6{
+  background-image: url('../imgs/alisa-anton-70365.jpg');
+}
+.card-bg-img7{
+  background-image: url('../imgs/hust-wilson-401558.jpg');
+}
+.card-bg-img8{
+  background-image: url('../imgs/alisa-anton-70365.jpg');
+}
+
+/** Footer **/
+
+footer{
+  min-height: 50vh;
+  margin-top: 40px;
+  background-color: #EFEFEF;
+}
